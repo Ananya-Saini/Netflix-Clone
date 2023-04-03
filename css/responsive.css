@@ -1,0 +1,178 @@
+/* Responsive */
+/* For <1449px */
+@media (max-width: 1499px) {
+    h1{
+        font-size: 50px;
+    }
+    header #logo{
+        width: 180px;
+    }
+
+    .login .input_container input{
+        height: 60px;
+    }
+
+    .login .input_container button{
+        min-height: 60px;
+    }
+}
+
+@media (max-width: 949px){
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    header .logo{
+        width: 18px;
+    }
+
+    .head{
+        margin: 0.5rem
+    }
+    
+    .first_slide{
+        padding: 75px 0;
+    }
+
+    .first_slide h3{
+        font-size: 26px;
+    }
+
+    .section2, .section6, .section4{
+        flex-direction: column;
+    }
+
+    .section3, .section5{
+        flex-direction: column-reverse;
+    }
+
+    #sec2, #sec3, #sec4, #sec5{
+        padding: 0 !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .image2, .image3, .image4, .image5{
+        margin: 0 !important;
+        margin-top: 1rem !important;
+        max-width: 600px;
+        width: 100%;
+    }    
+
+    .image4 img{
+        width: 100%;
+    }
+
+    .login .input_container{
+        flex-direction: column;
+    }
+
+    .login .input_box{
+        margin: 15px auto;
+        max-width: 500px;
+    }
+
+    .login .input_container button{
+        min-height: 40px;
+        font-size: 1rem;
+        padding: 0 15px;
+        border-radius: 2px;
+    }
+
+    .video3{
+        max-width: 65%;
+    }
+    
+    #faq ul{
+        margin: 1.5rem auto;
+    }
+
+    #faq ul li{
+        font-size: 1.25rem;
+    }
+
+    #faq .question{
+        padding: 16px;
+    }
+
+    #faq .question .close_btn{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 739px) {
+    .login .input_container .input_box input{
+        height: 48px;
+    }
+}
+
+@media (max-width: 685px) {
+    .video3{
+        max-width: 64%;
+        top: 10%;
+    }
+
+    .video3 video{
+        width: 100%;
+    }
+
+    .image3 img{
+        width: 100%;
+    }
+    .image5 img{
+        width: 100%;
+    }
+}
+@media (max-width: 549px) {
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    section{
+        padding: 50px 5%;
+    }
+
+    header{
+        padding: 20px 15px;
+    }
+
+    header .logo{
+        width: 120px;
+    }
+
+    .image3a img{
+        height: 2.5rem;
+    }
+
+    #first .first_slide{
+        padding: 30px 0;
+    }
+
+    #first .first_slide h3{
+        font-size: 18px;
+    }
+
+    #faq ul{
+        width: 100%;
+    }
+
+    #faq ul li{
+        font-size: 18px;
+    }
+}
